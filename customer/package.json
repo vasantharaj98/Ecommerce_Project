@@ -32,8 +32,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node public/generateSitemap.js && react-scripts build",
-    "generate-sitemap": "node public/generateSitemap.js",
+    "build": "node public/generatesitemap.js && react-scripts build",
+    "generate-sitemap": "node public/generatesitemap.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
