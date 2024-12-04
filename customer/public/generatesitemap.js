@@ -11,7 +11,7 @@ const date = new Date().toISOString();
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("https://api.newsit.live/api/user/EN/home/Breaking?page=1");
+      const response = await axios.get("https://api.Ecommerce.live/api/user/EN/home/Breaking?page=1");
       return response.data; // Assuming the response is an array of items
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -21,7 +21,7 @@ const date = new Date().toISOString();
 
   const tafetchData = async () => {
     try {
-      const response = await axios.get("https://api.newsit.live/api/user/TA/home/Breaking?page=1");
+      const response = await axios.get("https://api.Ecommerce.live/api/user/TA/home/Breaking?page=1");
       return response.data; // Assuming the response is an array of items
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -52,7 +52,7 @@ const generateSitemap = async () => {
         <loc>${baseUrl}/${url.url}</loc>
         <news>
         <publication>
-        <name>Newsit</name>
+        <name>Ecommerce</name>
         <language>${url.language}</language>
         </publication>
         <publication_date>${url.createdAt}</publication_date>
@@ -72,7 +72,7 @@ const generateSitemap = async () => {
       <loc>${baseUrl}/${url.url}</loc>
       <news>
       <publication>
-      <name>Newsit</name>
+      <name>Ecommerce</name>
       <language>${url.language}</language>
       </publication>
       <publication_date>${url.createdAt}</publication_date>

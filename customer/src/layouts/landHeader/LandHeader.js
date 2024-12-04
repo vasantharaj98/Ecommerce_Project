@@ -602,7 +602,7 @@ const LandHeader = ({cartopen, setCartOpen, setLight, light, lang, setLoader, si
       </Grid>
       <Grid container spacing={2} sx={{alignItems:'center', display:{md:'none', xs:'flex'}}}>
       <Grid item xs={4} sx={{textAlign:'center'}}>
-              <Typography color='text.main' variant='h4' sx={{fontWeight:'medium'}}>NEWSIT</Typography>
+              <Typography color='text.main' variant='h4' sx={{fontWeight:'medium'}}>Ecommerce</Typography>
         </Grid>
         <Grid item xs={4} sx={{textAlign:'center'}}>
         <Box sx={{display:'flex', justifyContent:'center', alignItems:'center'}}>

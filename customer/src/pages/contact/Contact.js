@@ -45,7 +45,7 @@ const Contact = ({ setLoader }) => {
               }}
             >
               Have a story tip, feedback, or just want to say hello? We'd love to hear from you! Reach out to us at 
-               <a href="mailto:reach@newsit.info" target="_blank"> reach@newsit.info </a> or connect with us on our social media platforms.</Typography>
+               <a href="mailto:reach@Ecommerce.info" target="_blank"> reach@Ecommerce.info </a> or connect with us on our social media platforms.</Typography>
               <Typography
               variant="body1"
               color="text.main"
@@ -56,7 +56,7 @@ const Contact = ({ setLoader }) => {
                 lineHeight: 1.7
               }}
             >
-              Join us on the journey of staying informed and connected. Download the Newsit app today and be a part of your community's story!</Typography>
+              Join us on the journey of staying informed and connected. Download the Ecommerce app today and be a part of your community's story!</Typography>
               </Box>
         </CardContent>
       </Card>

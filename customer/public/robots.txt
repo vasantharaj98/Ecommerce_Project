@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
-Sitemap: https://newsit.live/sitemap.xml
+Sitemap: https://Ecommerce.live/sitemap.xml

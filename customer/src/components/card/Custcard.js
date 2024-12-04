@@ -382,7 +382,7 @@ export function Custcard1({product}) {
           </Box>            
           </div>
           <Box sx={{display:'flex', justifyContent:'center', alignItems:'center', gap: 3, flexWrap:'wrap',  mt: 2}}>
-          <a href={`https://wa.me/?text=Check out this newsit feed: ${window.location}`} target='_blank'>
+          <a href={`https://wa.me/?text=Check out this Ecommerce feed: ${window.location}`} target='_blank'>
        <Box sx={{width:'50px', height:'50px', bgcolor:'primary.dark', borderRadius: '50%', display:'flex', justifyContent:'center', alignItems:'center'}}>
           <WhatsAppIcon sx={{color:'text.light', fontSize: 26}}/>
        </Box>

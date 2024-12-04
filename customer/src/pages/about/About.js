@@ -40,7 +40,7 @@ const About = ({ setLoader, lang }) => {
                 lineHeight: 1.5
               }}
             >
-Welcome to Newsit, your go-to source for hyperlocal news and information. At Newsit, we believe in empowering communities by delivering real-time, relevant, and reliable news through our cutting-edge mobile application.            
+Welcome to Ecommerce, your go-to source for hyperlocal news and information. At Ecommerce, we believe in empowering communities by delivering real-time, relevant, and reliable news through our cutting-edge mobile application.            
 </Typography>
         </CardContent>
         {/* <Divider sx={{bgcolor:'primary.light', my: 3}} /> 
@@ -70,7 +70,7 @@ Welcome to Newsit, your go-to source for hyperlocal news and information. At New
                 py: 1.5,
               }}
             >
-             At Newsit, our mission is to connect communities through news and information. We strive to provide a platform that not only keeps you informed about local events, developments, and stories but also fosters a sense of unity and engagement among our users.
+             At Ecommerce, our mission is to connect communities through news and information. We strive to provide a platform that not only keeps you informed about local events, developments, and stories but also fosters a sense of unity and engagement among our users.
             </Typography>
         </CardContent>
         <Typography
@@ -96,7 +96,7 @@ Welcome to Newsit, your go-to source for hyperlocal news and information. At New
                 lineHeight: 1.5
               }}
             >
-             1) Hyperlocal Focus: We understand the importance of hyperlocal news. Newsit is designed to bring you stories that matter most to your community, ensuring you stay informed about what's happening in your neighborhood.
+             1) Hyperlocal Focus: We understand the importance of hyperlocal news. Ecommerce is designed to bring you stories that matter most to your community, ensuring you stay informed about what's happening in your neighborhood.
             </Typography>
             <Typography
               variant="body1"
@@ -108,7 +108,7 @@ Welcome to Newsit, your go-to source for hyperlocal news and information. At New
                 lineHeight: 1.5
               }}
             >
-             2) User-Centric Approach: Your experience is our priority. The Newsit app is crafted with user-friendly features, allowing you to navigate seamlessly and access the news that matters to you with ease.
+             2) User-Centric Approach: Your experience is our priority. The Ecommerce app is crafted with user-friendly features, allowing you to navigate seamlessly and access the news that matters to you with ease.
             </Typography>
             <Typography
               variant="body1"
@@ -120,7 +120,7 @@ Welcome to Newsit, your go-to source for hyperlocal news and information. At New
                 lineHeight: 1.5
               }}
             >
-             3) Diverse Content: From breaking news to community events, we cover a wide range of topics. Newsit is not just a news platform; it's a hub for local happenings, culture, and stories that make your community unique.
+             3) Diverse Content: From breaking news to community events, we cover a wide range of topics. Ecommerce is not just a news platform; it's a hub for local happenings, culture, and stories that make your community unique.
             </Typography>
             <Typography
               variant="body1"
@@ -132,7 +132,7 @@ Welcome to Newsit, your go-to source for hyperlocal news and information. At New
                 lineHeight: 1.5
               }}
             >
-             4) Community Engagement: We believe in the power of community. Through interactive features, user-generated content, and community events coverage, Newsit aims to foster a sense of connection and engagement among our users.
+             4) Community Engagement: We believe in the power of community. Through interactive features, user-generated content, and community events coverage, Ecommerce aims to foster a sense of connection and engagement among our users.
             </Typography>
             <Typography
               color="text.main"
@@ -156,7 +156,7 @@ Welcome to Newsit, your go-to source for hyperlocal news and information. At New
                 py: 1.5,
               }}
             >
-             Behind Newsit is a dedicated team of journalists, tech enthusiasts, and community advocates. We are passionate about creating a space where communities can stay informed, connected, and engaged.
+             Behind Ecommerce is a dedicated team of journalists, tech enthusiasts, and community advocates. We are passionate about creating a space where communities can stay informed, connected, and engaged.
             </Typography>
       </Card>
           </Grid>
