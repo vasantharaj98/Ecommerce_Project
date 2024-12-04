@@ -1,0 +1,14 @@
+.sticky-grid {
+    width: 600px;
+    transition: all 0.3s ease-in-out; /* Smooth transition for position and top */
+  }
+  
+  .sticky-grid.fixed {
+    position: fixed;
+    top: 60px; /* Sticks the grid to the top of the viewport */
+  }
+  
+  .sticky-grid.relative {
+    position: relative;
+  }
+  

@@ -1,0 +1,23 @@
+.sidemenubar{
+    position: absolute;
+    top: 80px;
+    z-index: 1111111;
+    width: 250px;
+}
+.sidemenu:hover{
+    border-radius: 20px;
+    background-color: #39297E;
+}
+.sidemenu{
+    margin: 10px;
+}
+.sidemenu.active{
+    border-radius: 20px;
+    background-color: #39297E;
+}
+.sidemenu.active svg{
+    color: #fff;
+}
+.sidemenu.active p{
+    color: #fff;
+}
