@@ -8,7 +8,7 @@ import Login from './pages/login/Login.js';
 import ProtectedRoute from './utils/ProtectedRoute.js';
 import Product from './pages/product/Product.js';
 import Banner from './pages/banner/Banner.js';
-
+import Order from './pages/order/Order.js';
 
 const RouteRoute = ({setLoader}) => {
   return (
@@ -17,6 +17,7 @@ const RouteRoute = ({setLoader}) => {
         <Route path='/login' element={<Login setLoader={setLoader}/>}></Route> 
       <Route path='/' element={<Layout/>}>
         <Route path='/' element={<ProtectedRoute><Dashboard setLoader={setLoader}/></ProtectedRoute>}></Route>
+        <Route path='/orders' element={<ProtectedRoute><Order setLoader={setLoader}/></ProtectedRoute>}></Route>
         <Route path='/banner' element={<ProtectedRoute><Banner setLoader={setLoader}/></ProtectedRoute>}></Route>
         <Route path='/category' element={<ProtectedRoute><Category setLoader={setLoader}/></ProtectedRoute>}></Route>
         <Route path='/subcategory' element={<ProtectedRoute><Subcategory setLoader={setLoader}/></ProtectedRoute>}></Route>
